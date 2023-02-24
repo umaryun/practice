@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.nav-bar{
+    background-color: green;
+    text-align: center;
+    padding: 0.6cm;
+}
+.nav-bar a{ 
+    color: antiquewhite;
+    font-size: 1.5rem;
+    font-style: oblique;
+    width: 50%;
+    padding: 1cm;
+}
+.header{
+    text-align: center;
+    font-size: 2rem;
+    color: darkslateblue;
+    
+}
+.up-img{
+    height: 11cm;
+    justify-content: center;
+    width: 100%;
+
+}
+.mid-heder{
+    text-align: center;
+    width: 60%;
+    height: 10cm;
+    color: grey;
+}
+.grids{
+    width: 95%;
+    grid-template-columns: 3;
+    display: flex;
+    padding: 1cm;
+    background-color: bisque;
+}
+.grid-1{
+    height: 5.5cm;
+    margin-right: 1.5cm;
+    border-radius: 0.5%;
+    background-color: lightblue;
+    border: 0.2cm solid white;
+    padding: 1.5cm;
+    justify-content: space-between;
+    width: 6cm;
+
+}
+.grid-2{
+    height: 6.3cm;
+    margin-right: 1.5cm;
+    background-color: lightblue;
+    border: 0.2cm solid white;
+    padding: 1.5cm;
+    justify-content: space-between;
+    width: 6cm;
+}
+.grid-3{
+    height: 5.5cm;
+    background-color: lightblue;
+    border: 0.2cm solid white;
+    padding: 1.5cm;
+    justify-content: space-between;
+    width: 6cm;
+}
+.mid-text{
+    text-align: center;
+    width: 100%;
+}
